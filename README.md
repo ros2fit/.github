@@ -1,24 +1,26 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rosfit/.github/main/assets/rosfit-logo.png" alt="RosFit" width="200" />
+  <img width="600" alt="RosFit" src="https://github.com/user-attachments/assets/d5d470d9-9bc2-4586-853a-344ae7c4cc53" />
 </p>
 
-<h3 align="center">Fit your ROS2 robot into Cloud and control it from anywhere.</h3>
+<h3 align="center">Connect your ROS2 robot to the cloud in minutes.</h3>
 
-<p align="center">
-  Open-source bridge & management platform for connecting ROS2 robots to the cloud.<br/>
-  Self-hosted with Docker Compose. Zero custom code. Works in minutes.
+<p align="center"><i>
+  MQTT bridge, real-time dashboard, remote commands, and OTA updates for your robot fleet.<br/>
+  Use <b>RosFit-Cloud</b> or <b>self-host</b> — zero vendor lock-in.
+</i>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://github.com/rosfit/rosfit">Get Started</a> · <a href="https://rosfit.dev">Docs</a> · <a href="https://github.com/rosfit/rosfit/issues">Report Bug</a>
-</p>
+</p> -->
 
----
 
-### The problem
+## The problem
 
-- Connecting a ROS2 robot to the cloud takes **months** of custom work — MQTT bridges, auth, dashboards, OTA pipelines, all built from scratch every time. 
-- Existing platforms cost $200+/robot/month and lock you into their ecosystem.
+You've built your robot. Now, you want your robot in the cloud. Telemetry, remote commands, config, firmware updates. 
+You have two options: spend `3 months` implementing `MQTT`, `Auth`, and `Dashboards` from scratch, or spend 200+ per month per robot on a platform that controls your data. 
+- **RosFit** is the third option. `Production-ready` cloud infrastructure for ROS2 robots, open source, deploy in minutes.
+
 
 ### What RosFit does
 
