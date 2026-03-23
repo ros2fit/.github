@@ -56,10 +56,3 @@ graph LR
 | **Device Shadow** | Desired vs reported config state — change robot settings without SSH |
 | **OTA Updates** | Upload firmware, deploy to fleet with rollback on failure |
 | **Token Auth** | JWT-based device and user authentication with per-device topic isolation |
-
-### Roadmap
-
-* **Phase 1** — Bridge + Dashboard + Commands *(in progress)*
-* **Phase 2** — Shadow + OTA + Telemetry charts
-* **Phase 3** — TLS, RBAC, alerts, webhooks
-* **Phase 4** — RosFit Cloud (managed SaaS at `rosfit.dev`)
