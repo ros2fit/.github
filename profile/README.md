@@ -1,7 +1,7 @@
 <p align="center">
-  <img width="600" alt="RosFit" src="https://github.com/user-attachments/assets/d5d470d9-9bc2-4586-853a-344ae7c4cc53" />
+  <img width="300" alt="RosFit" src="https://github.com/user-attachments/assets/d5d470d9-9bc2-4586-853a-344ae7c4cc53" />
 </p>
-
+<img width="1275" height="633" alt="Screenshot 2026-03-30 at 5 52 27 AM" src="https://github.com/user-attachments/assets/78db1e79-d233-4a2f-aa12-e9e1596b604a" />
 <h3 align="center">Connect your ROS2 robot to the cloud in minutes.</h3>
 
 <p align="center"><i>
