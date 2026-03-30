@@ -22,30 +22,6 @@ You have two options: spend `3 months` implementing `MQTT`, `Auth`, and `Dashboa
 One YAML config and your robot become managable via cloud.
 
 
-### Architecture
-
-```mermaid
-graph LR
-    subgraph Robot
-        R1[ROS2 Nodes] <-->|topics| B[RosFit Bridge]
-    end
-
-    B <-->|MQTT TLS| E[EMQX Broker]
-
-    subgraph RosFit-Cloud
-        E --> H[Message Handler]
-        H --> PG[(TimescaleDB)]
-        H --> S3[(MinIO)]
-        E <--> SH[Shadow Service]
-        SH <--> RD[(Redis)]
-        API[Backend] --> PG
-        API --> RD
-        API --> S3
-        DASH[Dashboard] --> API
-        DASH <-->|WebSocket| E
-    end
-```
-
 ### MVP features
 
 | Feature | What it does |
