@@ -1,34 +1,51 @@
-<p align="center">
-  <img width="300" alt="RosFit" src="https://github.com/user-attachments/assets/d5d470d9-9bc2-4586-853a-344ae7c4cc53" />
-</p>
-<img width="1275" height="633" alt="Screenshot 2026-03-30 at 5 52 27 AM" src="https://github.com/user-attachments/assets/78db1e79-d233-4a2f-aa12-e9e1596b604a" />
-<h3 align="center">Connect your ROS2 robot to the cloud in minutes.</h3>
+<div align="center">
 
-<p align="center"><i>
-  MQTT bridge, real-time dashboard, remote commands, and OTA updates for your robot fleet.<br/>
-  Use <b>RosFit-Cloud</b> or <b>self-host</b> — zero vendor lock-in.
-</i>
-</p>
+<!-- Replace with your actual logo URL once hosted -->
+<img src="https://github.com/user-attachments/assets/14668cde-4637-4d83-b886-7dee6fe0d177" alt="RosFit" width="120" />
 
-## The problem
+# RosFit
 
-You've built your robot. Now, you want your robot in the cloud. Telemetry, remote commands, config, firmware updates. 
-You have two options: spend `3 months` implementing `MQTT`, `Auth`, and `Dashboards` from scratch, or spend 200+ per month per robot on a platform that controls your data. 
-- **RosFit** is the third option. `Production-ready` cloud infrastructure for ROS2 robots, open source, deploy in minutes.
+**Open-source control plane for robots and IoT devices.**
 
+Self-Hostable | RosFit Cloud | ROS2-native
 
-### What RosFit does
+[![Website](https://img.shields.io/badge/Website-rosfit.io-000?style=flat-square)](https://rosfit.io)
+[![Docs](https://img.shields.io/badge/Docs-docs.rosfit.io-000?style=flat-square)](https://docs.rosfit.io)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square)](https://github.com/rosfit/rosfit/blob/main/LICENSE)
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=flat-square)](https://discord.gg/rosfit)
 
-One YAML config and your robot become managable via cloud.
+</div>
 
+---
 
-### MVP features
+## Why RosFit
 
-| Feature | What it does |
-|---------|-------------|
-| **MQTT Bridge** | Bridges ROS2 topics to MQTT with a YAML config — publish, subscribe, throttle |
-| **Real-time Dashboard** | See all robots, status, telemetry charts — live via WebSocket |
-| **Remote Commands** | Send commands from REST API or dashboard, get structured responses |
-| **Device Shadow** | Desired vs reported config state — change robot settings without SSH |
-| **OTA Updates** | Upload firmware, deploy to fleet with rollback on failure |
-| **Token Auth** | JWT-based device and user authentication with per-device topic isolation |
+Every robotics and IoT team rebuilds the same infrastructure — telemetry pipelines, live maps, remote control, OTA updates. We packaged it into one open-source platform you can run on your own hardware, in your own network.
+
+- **Self-hosted first** — `docker compose up` and you're live in 10 minutes
+- **ROS2-native** — first-class support for DDS topics, SLAM, and teleoperation
+- **Cloud-optional** — switch to RosFit Cloud when you want managed hosting, switch back any time
+- **No vendor lock-in** — Apache 2.0, your data, your hardware
+
+## Quick start
+
+```bash
+git clone https://github.com/rosfit/rosfit
+cd rosfit
+docker compose up -d
+```
+
+## Repositories
+
+| Repo | What it is |
+|---|---|
+| [`rosfit`](https://github.com/rosfit/rosfit) | The platform — dashboard, API, and worker. Run with Docker Compose. |
+| [`rosfit-ros`](https://github.com/rosfit/rosfit-ros) | ROS2 packages — agent, messages, launch files. Install on your robot. |
+| [`rosfit-python`](https://github.com/rosfit/rosfit-python) | Python SDK and CLI. `pip install rosfit` |
+| [`docs`](https://github.com/rosfit/docs) | Documentation source for [docs.rosfit.io](https://docs.rosfit.io) |
+
+## Built for
+
+* 🏭 **Industrial operators** running robots where data can't leave the premises
+* 🌾 **Agricultural & research teams** in regulated industries
+* 🚀 **Robotics startups** that want to ship the robot, not the dashboard
