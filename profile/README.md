@@ -9,9 +9,9 @@
 
 Self-Hostable | RosFit Cloud | ROS2-native
 
-[![Website](https://img.shields.io/badge/Website-rosfit.io-000?style=flat-square)](https://rosfit.io)
-[![Docs](https://img.shields.io/badge/Docs-docs.rosfit.io-000?style=flat-square)](https://docs.rosfit.io)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square)](https://github.com/rosfit/rosfit/blob/main/LICENSE)
+[![Website](https://img.shields.io/badge/Website-rosfit.io-000?style=flat-square)](https://rosfit.dev)
+[![Docs](https://img.shields.io/badge/Docs-docs.rosfit.io-000?style=flat-square)](https://docs.rosfit.dev)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square)](https://github.com/ros2fit/rosfit/blob/main/LICENSE)
 
 </div>
 
